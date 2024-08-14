@@ -662,6 +662,9 @@ address {
         padding-right: 30px;
     }
     h1 { font-size: 2rem; }
+    .tm-tagline {
+        margin-left: 75px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -677,6 +680,9 @@ address {
         padding-left: 15px;
         padding-right: 30px;
     }
+    .tm-tagline {
+        margin-left: 75px;
+    }
 }
 
 @media (max-width: 540px) {
@@ -685,19 +691,25 @@ address {
         align-items: center;
     }
     .tm-site-header {
-        padding-left: 15px;
+        padding-left: 0px;
         padding-right: 30px;
+        padding-top: 0px;
     }
-    h1 { font-size: 1.5rem; }
+    h1 { font-size: 1.2rem; }
 }
 
 @media (max-width: 558px) {
     .tm-site-header {
-        padding-left: 15px;
+        padding-left: 5px;
         padding-right: 30px;
     }
 
     .tm-tagline {
-        margin-left: 30px;
+        margin-left: 22%;
     }
+    .tm-site-header {
+        padding-left: 5px;
+        padding-right: 30px;
+    }
+    h1 { font-size: 1.2rem; }
 }
