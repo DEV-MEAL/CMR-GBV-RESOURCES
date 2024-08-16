@@ -712,4 +712,10 @@ address {
         padding-right: 30px;
     }
     h1 { font-size: 1.2rem; }
+    
+}
+.logo {
+    max-width: 50%;
+    height: auto;
+
 }
